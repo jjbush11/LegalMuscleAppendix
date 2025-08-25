@@ -1,0 +1,36 @@
+﻿,,,
+,,,
+Evaluation Criteria (EC),Questions answered,Indicators,Scoring 
+(EC1) Integrated data aggregation and advocacy grade visualizations,"What type of data can be collected (text, photos, documents, audio,...)? Can data be visualized and explored (maps, charts, dashboards, filtering,…) What support is given to analyze and use data (generated reports, data export options,...)?","EC1.1 (required) Supports >= 3 (text, photos/videos, documents, audio,...)
+
+
+
+",Yes = EC1 .1 and (any 2 of EC1.2–EC1.4) 
+,,"EC1.2: Data is displayed on an interactive map and with ways to explore(data be visualized and explored (maps, charts, dashboards, filtering,…)",Partial = EC1.1 and (any 1 of EC1.2–EC1.4)
+,,EC1.3: Advocacy ready outputs: exportable map or templated PDF or dashboard/charts built in,No = otherwise
+,," EC1.4: Analysis ready export (CSV, JSON, GIS formats,...)",
+(EC2) Resilient and structured field capture,"How is data captured (mobile apps, forms, surveys,...)? Are there data validation techniques? Is data capture possible in low connectivity or offline
+environments (queuing, syncing,…)?","EC2.1 (required) offline capture of forms/media with queue/sync upload once online
+
+
+",Yes = EC2 .1 and EC2.2; 
+,,,Partial = (EC2.1 or EC2.2) and EC2.3
+,,EC2.2 (required): Mobile capture through apps,
+,,"EC2.3: Form quality controls (required fields, validation, conditional logic, metadata prompts,...)",No = otherwise
+"(EC3) Secure, verifiable evidence management ","What security features are applied to collected data (encryption in transit/at rest,...)? How is data authenticated (cryptographic hashing/signing, chain of custody,...)? Who can access and edit the data (role based access, public,…)?","EC3.1 (required): Encryption in transit (TLS)
+",Yes = EC3.1 and EC3.2
+,,EC3.2 (required): Integrity/provenance: file hashing/signing and/or explicit chain-of-custody with capture metadata ,Partial = EC3.1 and (EC3.2 or EC3.3)
+,,EC3.3: Role/attribute-based access controls with sensible defaults (non-public for sensitive items).,No = otherwise
+(EC4) Low friction and accessible usage to democratize data submission and organization,"How are data submission made accessible to as many users as possible (multiple languages, simple/intuitive UI,...)? Is the workflow unintrusive ( submissions with mobile app, SMS, WhatsApp,...)?","EC4.1 (required): Accessible, low-barrier channels (iOS/Android) mobile submission, SMS/WhatsApp/email/... submissions,...) ",Yes = EC4.1 and EC4.2 
+,,,Partial = EC4.1 or EC4.2
+,,EC4.2 (required): Simple and usable UI for nontechnical users and multilingual options,No = otherwise
+(EC5) Free to use ,"Is the software free for humanitarian/environmental organizations? Is the software ready to use with no technical experience (self hosting, technical project creation,…)?","EC5.1 (required): No cost for core use (capture, store, export) with no time limit (not a trial)",Yes = EC5.1 and EC5.3
+,,EC5.2: No cost to adopt but self hosting required, Partial = EC5.2
+,,EC5.3: Tool is ready to use,No = paid only
+(EC6) Open source,"Is the codebase usable for developers? Is there support for using the codebase (developer docs,…)?",EC6.1 (required): All components are of the tool are open source ,Yes = EC6.1 and EC6.2
+,,EC6.2 (required): Developer documentation to adopt the codebase,Partial = EC6.2 or EC6.3
+,,EC6.3: Some components of the tool are open source but not all,No = not open source
+(EC7) Inclusive co-design and end-user involvement,"Is this tool developed with input and feedback from documenters themselves (co-creation, field work,...)? Are users involved in continuous improvement and development (community forums, support channels,...)?","EC7.1 (required): Evidence of co-creation/user research (roadmap, ""built with members of x"",…)",Yes = EC7.1 and EC7.2
+,,"EC7.2 (required): Open engagement channels (community forums, support channels,..)",Partial = EC71. or EC7.2
+,,,No = otherwise
+(EC8) Example projects,How is this tool used? By who and in what context?,X,X
